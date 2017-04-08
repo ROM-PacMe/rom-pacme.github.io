@@ -11,18 +11,47 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 }
- 
+
+/* Inicio propiedad genérica de mason*/ 
+
 .elemento {
 	margin: 5px auto;
 	position: relative;
+	padding: 5px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	transition: all 0.15s ease-in-out;
- }
- 
+}
+
+.elemento img {
+	align-items: center;
+}
+
 .elemento p {
 	padding: 1px;
 	font-size: 13px;
 }
+
+/* fin propiedad genérica de mason*/ 
+
+/* inicio propiedad elemento1 de mason*/ 
+.elemento1 {
+	margin: 5px auto;
+	position: relative;
+	padding: 5px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	background: black;
+	transition: all 0.15s ease-in-out;
+ }
+.elemento1 img {
+	align-items: center;
+}
+.elemento1 p {
+	padding: 1px;
+	font-size: 12px;
+	color:white;
+}
+/* final propiedad elemento1 de mason*/ 
+
 
 .lol h1 {
     font-family: helvetica;
