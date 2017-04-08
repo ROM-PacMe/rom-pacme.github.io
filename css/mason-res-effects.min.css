@@ -1,0 +1,42 @@
+/*Rafael PacMe CSS: MasonPic Effects (Own Effects to Mason CSS)
+	Effects Library for this project.
+  (c) Rafael PacMe <rafy.pachecomendez@gmail.com>
+*/
+
+/* Elemento Hover Up */
+/* NO USAR POR AHORA */
+
+/*.elemento img {
+  transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -moz-transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+
+.elemento img:hover {
+    transform: translate(0px, -100px);
+  -ms-transform: translate(0px, -100px);
+  -moz-transform: translate(0px, -100px);
+  -webkit-transform: translate(0px, -100px);
+  -o-transform: translate(0px, -100px);
+}
+*/
+
+/*Efecto sencillo aumento de tamaño .elemento */
+
+/*
+.elemento img:hover{
+  opacity:2;
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+} */
+ 
+.elemento:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
